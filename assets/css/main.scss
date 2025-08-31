@@ -6,14 +6,14 @@
 
 /* Site overrides */
 .author__avatar {
-  width: 300px;   /* Adjust to your preference */
-  height: 300px;  /* Keep square for circular crop */
+  width: 500px;   /* Adjust to your preference */
+  height: 500px;  /* Keep square for circular crop */
 }
 
 @media (max-width: 900px) {
   .author__avatar {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
 }
 
