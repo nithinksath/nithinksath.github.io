@@ -1,0 +1,45 @@
+title: Nithin Kumar Sathish
+email: nithinksath@gmail.com
+description: >-
+  Personal website of Nithin Kumar Sathish. Machine Learning, Engineering, and more.
+baseurl: ""
+url: "https://nithinksath.github.io"
+twitter_username: mail2nithink
+github_username: nithinksath
+linkedin_username: nithinkumar96
+
+# Minimal Mistakes theme settings
+theme: "minimal-mistakes-jekyll"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+author:
+  avatar: "/assets/images/linkedin_pfp.jpg" # Add your photo here later
+  location: "Bay Area"
+  links:
+    - label: "CV"
+      icon: "fas fa-file-alt"
+      url: "/assets/files/CV.pdf"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:nithinksath@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/nithinksath"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/nithinkumar96/"
+    - label: "X"
+      icon: "fab fa-twitter"
+      url: "https://x.com/mail2nithink"
+
+# Social profiles
+social:
+  type: "Person"
+  name: "Nithin Kumar Sathish"
+  links:
+    - "https://github.com/nithinksath"
+    - "https://www.linkedin.com/in/nithinkumar96/"
+    - "https://x.com/mail2nithink"
