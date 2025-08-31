@@ -8,8 +8,8 @@ twitter_username: mail2nithink
 github_username: nithinksath
 linkedin_username: nithinkumar96
 
-# Minimal Mistakes theme settings
-theme: "minimal-mistakes-jekyll"
+# Minimal Mistakes via remote theme for GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
