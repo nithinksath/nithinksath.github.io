@@ -11,9 +11,21 @@
   max-width: none !important; /* Override theme caps */
 }
 
+/* Theme sets size on the inner img; override that too */
+.author__avatar img {
+  width: 240px;
+  height: 240px;
+  max-width: none !important;
+}
+
 @media (max-width: 900px) {
   .author__avatar {
     width: 180px;  /* Mobile size */
+    height: 180px;
+    max-width: none !important;
+  }
+  .author__avatar img {
+    width: 180px;
     height: 180px;
     max-width: none !important;
   }
