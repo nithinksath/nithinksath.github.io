@@ -1,0 +1,19 @@
+---
+---
+// Import the Minimal Mistakes skin and theme
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Site overrides */
+.author__avatar {
+  width: 200px;   /* Adjust to your preference */
+  height: 200px;  /* Keep square for circular crop */
+}
+
+@media (max-width: 900px) {
+  .author__avatar {
+    width: 160px;
+    height: 160px;
+  }
+}
+
