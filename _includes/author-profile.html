@@ -1,16 +1,33 @@
-<!-- Minimal Mistakes author profile include -->
-<div class="author__profile" style="position: relative; display: flex; align-items: flex-start; min-height: 220px; width: 100%; margin: 0; padding: 0; margin-left: -400px;">
-  <aside style="position: fixed; left: 30px; width: 180px; display: flex; flex-direction: column; align-items: flex-start;">
-    <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" class="author__avatar" style="width: 190px; height: 190px; object-fit: cover; margin-bottom: 16px; border-radius: 100px;" />
-    <ul class="author__links" style="padding-left: 0; list-style: none;">
+<!-- Minimal, responsive author profile block -->
+<style>
+  .author-profile { display: flex; align-items: flex-start; gap: 24px; margin: 0 0 24px 0; }
+  .author-profile__aside { width: 190px; flex: 0 0 190px; }
+  .author-profile__avatar { width: 190px; height: 190px; object-fit: cover; margin-bottom: 16px; border-radius: 100px; }
+  .author-profile__links { padding-left: 0; list-style: none; margin: 0; }
+  .author-profile__links li { margin-bottom: 10px; }
+  .author-profile__content { flex: 1 1 auto; min-width: 0; }
+
+  /* Stack vertically on tablets/phones */
+  @media (max-width: 900px) {
+    .author-profile { flex-direction: column; align-items: center; text-align: center; }
+    .author-profile__aside { width: 160px; flex-basis: 160px; }
+    .author-profile__avatar { width: 160px; height: 160px; }
+    .author-profile__content { width: 100%; text-align: left; }
+  }
+</style>
+
+<div class="author-profile">
+  <aside class="author-profile__aside">
+    <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" class="author-profile__avatar" />
+    <ul class="author-profile__links">
       {% for link in site.author.links %}
-        <li style="margin-bottom: 10px;">
-          <a href="{{ link.url }}" target="_blank" style="font-size: 1.1em;">
+        <li>
+          <a href="{{ link.url }}" target="_blank" rel="noopener">
             <i class="{{ link.icon }}"></i> {{ link.label }}
           </a>
         </li>
       {% endfor %}
     </ul>
   </aside>
-  <div style="margin-left: 260px; flex: 1; max-width: 800px; text-align: left;">
+  <div class="author-profile__content"></div>
 </div>
