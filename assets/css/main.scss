@@ -5,6 +5,8 @@
 @import "minimal-mistakes";
 
 /* Site overrides */
+.home-bio { max-width: 800px; }
+.home-bio p { font-size: 16px; margin-bottom: 20px; }
 .author__avatar {
   width: 240px;   /* Sidebar-friendly desktop size */
   height: 240px;  /* Keep square for circular crop */
@@ -19,6 +21,7 @@
 }
 
 @media (max-width: 900px) {
+  .home-bio { padding: 0 16px; }
   .author__avatar {
     width: 180px;  /* Mobile size */
     height: 180px;

@@ -4,17 +4,7 @@ layout: single
 permalink: /
 author_profile: true
 ---
-
-<style>
-  .home-bio { max-width: 800px; }
-  .home-bio p { font-size: 16px; margin-bottom: 20px; }
-  @media (max-width: 900px) {
-    .home-bio { padding: 0 16px; }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    * { scroll-behavior: auto; }
-  }
-</style>
+{% comment %} Styles moved to assets/css/main.scss {% endcomment %}
 
 <section class="home-bio">
   <p>I'm a researcher at Magic Leap, working on world-scale mapping. I have also worked on real-time Scene Understanding for AR/VR systems at the intersection of Computer Vision, Graphics, and Deep Learning.</p>
