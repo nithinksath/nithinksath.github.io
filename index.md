@@ -2,9 +2,8 @@
 layout: single
 # title: "Nithin Kumar Sathish"
 permalink: /
+author_profile: true
 ---
-
-{% include author-profile.html %}
 
 <style>
   .home-bio { max-width: 800px; }
