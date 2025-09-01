@@ -11,5 +11,5 @@ author_profile: true
 
   <p>Previously, I received my MS in Electrical and Computer Engineering from Carnegie Mellon University, working with <a href="https://www.cs.cmu.edu/~deva/" target="_blank">Prof. Deva Ramanan</a> on optimizing object detectors for autonomous vehicles. Prior to CMU, I received my B.E in Electrical and Electronics Engineering from PSG College of Technology, Coimbatore, India, where I developed real-time parking lane detection for autonomous vehicles with <a href="https://www.ece.cmu.edu/directory/rajkumar.html" target="_blank">Prof. Raj Rajkumar</a>.</p>
 
-  <p>My research interests include 3D computer vision and geometry problems, multimodal perception and generation, long-horizon tasks, agentic AI, and scaling laws for LLMs.</p>
+  <p>My research interests include 3D computer vision and geometry problems, multimodal perception and generation, long-horizon tasks, agentic AI.</p>
 </section>
